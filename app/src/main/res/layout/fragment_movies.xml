@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UI.FirstFragment">
+    tools:context=".UI.MoviesFragment">
 
     <TextView
         android:id="@+id/mostPopular"
@@ -30,9 +30,9 @@
         android:id="@+id/inputYearLayout"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="659dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/rvMovies"
         app:layout_constraintEnd_toStartOf="@+id/btn_submit"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/mostPopular"
